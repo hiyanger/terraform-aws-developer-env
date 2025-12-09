@@ -1,4 +1,4 @@
-dockerfileをECRにpushするときのコマンド
+## dockerfileをECRにpushするときのコマンド
 
 docker buildx build --platform linux/amd64 -t devenv-base-ecr:latest .
 
