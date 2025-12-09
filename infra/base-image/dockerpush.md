@@ -9,5 +9,5 @@ aws ecr get-login-password --region ap-northeast-1 --profile <プロファイル
 docker push <アカウントID>.dkr.ecr.ap-northeast-1.amazonaws.com/devenv-base-ecr:latest
 
 ## タスク置き換え
-ECSサービスからサービスの更新→「新しいデプロイの強制」にチェックして更新すれば
+ECSサービスからサービスの更新→「新しいデプロイの強制」にチェックして更新すれば  
 新しいECRが配置される（単純にタスク落としてあげなおしてもダメ）
